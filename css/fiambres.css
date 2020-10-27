@@ -1,14 +1,15 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background: url(img/fondo.png);
+    background: url(../img/fondo.jpg);
     height: 100vh;
+    background-size: cover;
 }
 
 .menu p {
     font-family: 'Staatliches', cursive;
     font-size: 30px;
     margin-left: 60px;
-    color: white;
+    color:black;
     margin-bottom: 100px;
 }
 
@@ -23,5 +24,9 @@ img {
 h1 {
     text-align: center;
     font-size: 55px;
-    color: white;
+    color: black;
+}
+
+#1 p {
+    color:black;
 }

@@ -4,11 +4,13 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background: url(../img/fondo.jpg) ;
+    height: 100vh;
+    background-size: cover;
 
 }
 
 header {
-    background: url(img/fondo.png) ;
     height: 100vh;
 }
 
@@ -16,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color:black;
 }
 .menu p {
     font-family: 'Staatliches', cursive;
@@ -36,7 +38,7 @@ li {
     margin: auto;
 }
 .titular {
-    color: white;
+    color:black;
     text-align: center;
     margin-top: 200px;
 }
