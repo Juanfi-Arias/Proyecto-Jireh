@@ -55,12 +55,47 @@ h2 {
 
 
 /*section-fiambres*/
-.sectionFiambres img{
+
+.sectionFiambres img {
     height: 300px;
     width: 500px;
+    margin-left: 83px;
+    border-radius: 5px;
+    margin-right: 83px;
+}
+h3 {
+    font-size: 54px;
+    margin-left: 83px;
 }
 
-h3{
-    font-size: 25px;
+.sectionFiambres{
+    display: flex;
 }
 
+.sectionFiambres p {
+    font-size: 30px;
+    color: #000000de;
+}
+
+.sectionFiambres a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    font-size: 14px;
+}
+
+
+/*whatsap*/
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+    text-decoration: none;
+    color: black;
+}
